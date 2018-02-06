@@ -2044,7 +2044,6 @@ void loop()
   sineWaveTwo(animtime, cube, 72, 8, 2); // animation time lenght, cube, delay time,  periodX ; periodY
   sinx2y2(animtime, cube, 36); // animation time lenght, cube, delay time
   color_wheelTWO(animtime, cube, 72); // animation time lenght, cube, delay time
-  // sphere(animtime , cube, 4, 4, 4, 3, 15, 5); // animation time lenght, cube, x, y, z (sphere center),sphere radius, sphere brighness, delay time
   snake(animtime, cube, 72, 16, 0); //animation time lenght, cube, delay time,snake lenght , collision modde **** 8x8x8 *** specific
   fireworks(animtime , cube, 1, 32, 36); //animation time lenght, cube, delay time, iterations ???, number of particles, delay time **** 8x8x8 *** specific
   sineWaveTwo(animtime, cube, 36, 16, 16); // animation time lenght, cube, delay time,  periodX ; periodY
