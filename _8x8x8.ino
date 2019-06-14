@@ -12,11 +12,11 @@ const byte SRCLK       = 13;// (SCK)
 
 int FPS = 30;
 int BAM = 4 ; // MODULATION_BIT_DEPTH = 4 - can be changed in LedCube.cpp
-int size = 7;
+int size = 8;
 //minimum Refresh frequency =  BAM (4bit - 16, 3bit - 8, 2bit - 4, 1bit - 2) * LayerNumber (4-8) *  FPS (25-100) *  double buffer - sync (2)   // recomended = Layer * 1000
 // cubesize = 8
-//LedCube cube(Latch,OE_pin , CUBE_SIZE_8x8x8, pow(2, BAM) * FPS * size * 2 );
-LedCube cube(Latch,OE_pin , CUBE_SIZE_7x7x7, pow(2, BAM) * FPS * size * 2 );
+LedCube cube(Latch,OE_pin , CUBE_SIZE_8x8x8, pow(2, BAM) * FPS * size * 2 );
+//LedCube cube(Latch,OE_pin , CUBE_SIZE_7x7x7, pow(2, BAM) * FPS * size * 2 );
 //LedCube cube(Latch, OE_pin , CUBE_SIZE_4x4x4, pow(2, BAM) * FPS * size * 2 );
 
 int fps =    FPS;
